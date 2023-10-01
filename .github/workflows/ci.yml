@@ -5,7 +5,7 @@ on:
   push:
     branches:
       - main
-      - "releases/*"
+      - 'releases/*'
 
 jobs:
   test-javascript:
@@ -51,7 +51,7 @@ jobs:
 
       - name: Test Local Action
         id: issue
-        uses: andrewtdinh/GHActionTemplate/
+        uses: andrewtdinh/GHActionTemplate/action.yml@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           title: Test Issue
