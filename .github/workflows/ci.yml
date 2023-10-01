@@ -51,7 +51,7 @@ jobs:
 
       - name: Test Local Action
         id: issue
-        uses: andrewtdinh/GHActionTemplate/action.yml@main
+        uses: andrewtdinh/GHActionTemplate
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           title: Test Issue
