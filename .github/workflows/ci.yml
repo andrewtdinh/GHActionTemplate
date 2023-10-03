@@ -51,7 +51,7 @@ jobs:
 
       - name: Test Local Action
         id: issue
-        uses: ./action.yml
+        uses: ./
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           title: Test Issue
