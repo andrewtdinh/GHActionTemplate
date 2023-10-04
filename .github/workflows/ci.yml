@@ -55,7 +55,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           title: Test Issue
-          body: Test issue body
+          body: Test issue body 2
           assignees: |
             andrewtdinh
       - name: Print Output
